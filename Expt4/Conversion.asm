@@ -1,12 +1,12 @@
 section .data
 men db 10,13,"------NUMBER CONVERSIONS--------"
-db 10,13,"1.FOR HEXADECMAL TO BCD"
+
+db 10,13,"1.HEXADECMAL TO BCD"
 db 10,13,"2.BCD TO HEXADECIMAL"
 db 10,13,"3.EXIT"
 db 10,13,"ENTER YOUR CHOICE:"
 men_len equ $-men
 msg1 db "ENTER A HEX CHOICE:"
-msg6 db "ENTER A HEX CHOICE:"
 msg1_len equ $-msg1
 msg2 db "THE EQUIVALENT BCD NUMBER IS:"
 msg2_len equ $-msg2
@@ -64,13 +64,11 @@ _start:
 HTB:
 	print newline,1
 	print msg1,msg1_len
-
 	read num,5
 	call convert
 	mov ax,bx
 	mov bx,10
 	mov ecx,00
-	
 	
 up1:
 	mov edx,00
