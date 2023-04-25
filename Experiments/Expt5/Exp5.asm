@@ -1,5 +1,3 @@
-EXPERIMENT 5:
-INPUT:
 section .data
        men db 10,13,"------------8-BIT MULTIPLICATION-----------"
        db 10,13,"ENTER 1.SUCCESSIVE ADDITION"
