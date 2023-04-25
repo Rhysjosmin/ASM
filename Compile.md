@@ -1,4 +1,4 @@
-<h1>FOR 32 BIT</h1>
+<h1>For 32 BIT</h1>
 
 
 ```asm
@@ -8,7 +8,7 @@ ld -m elf_i386 -o Conversion Conversion.o
 ```
 
 
-<h1>FOR 64 BIT</h1><br>
+<h1>For 64 BIT</h1><br>
 
 ```asm
 nasm -f elf64 Conversion.asm
