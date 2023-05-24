@@ -35,3 +35,19 @@ to include
 
 ```
 
+
+to export
+```asm
+
+global far_proc
+
+```
+
+to import
+```asm
+
+extern far_proc
+
+```
+
+
