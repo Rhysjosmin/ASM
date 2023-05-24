@@ -17,7 +17,7 @@ ld -o Programm exp5.o
 ```
 
 
-# Far Procedure
+# Far Procedure Compile 
 
 ```asm
 nasm -f elf64 file1.asm
@@ -26,3 +26,12 @@ nasm -f elf64 file2.asm
 ld file1.o file2.o -o file
 ./file
 ```
+
+
+to include
+```asm
+
+%include "macro.asm"
+
+```
+
