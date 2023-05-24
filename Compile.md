@@ -15,3 +15,14 @@ nasm -f elf64 exp5.asm
 ld -o Programm exp5.o
 ./Programm
 ```
+
+
+# Far Procedure
+
+```asm
+nasm -f elf64 file1.asm
+nasm -f elf64 file2.asm
+
+ld file1.o file2.o -o file
+./file
+```
